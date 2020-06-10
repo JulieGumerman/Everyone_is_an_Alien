@@ -6,16 +6,22 @@
 <div>
     <form>
         <label>Filter by</label>
-        <input type="text" />
+        <input 
+            type="text" 
+            [placeholder]='quoteFilter'
+            [(ngModel)]='quoteFilter'
+
+        />
     </form>
     <div>
-        <h4>Filtered by...</h4>
+        <h4>Filtered by...{{quoteFilter}}</h4>
+
     </div>
 
     <table *ngIf='quotes && quotes.length'>
         <thead>
             <tr>
-                <th><button (click)='toggleImage()'>Show speaking character</button></th>
+                <th><button (click)='toggleImage()'>{{showImage ? 'Hide' : 'Show'}} speaking character</button></th>
                 <th>Topic</th>                
                 <th>Quote</th>
             </tr>
@@ -27,6 +33,7 @@
                     [alt]='quote.character'
                     [style.width.px]='svgWidth'
                     [style.margin.px]='svgMargin'
+                    *ngIf='showImage === true'
                     >
                 </td>
                 <td>{{quote.topic}}</td>

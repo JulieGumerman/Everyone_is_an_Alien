@@ -11,6 +11,7 @@ export class QuoteListComponent {
     svgWidth: number = 50;
     svgMargin: number = 10;
     showImage: boolean = false;
+    quoteFilter: string = 'find me...';
     quotes: any[] = [
         {
             "id": 1,
