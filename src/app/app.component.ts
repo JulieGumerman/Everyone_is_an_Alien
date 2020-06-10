@@ -14,6 +14,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  pageTitle: string = "Everyone's an aliebn when ur an aliebn too:";
-  quote: string = "The Wisdom of Jomny Sun";
+  pageTitle: string = "Everyone's an alien when you're an alien too:";
+  quote: string = "The wisdom of Jomny Sun";
 }

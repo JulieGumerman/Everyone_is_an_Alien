@@ -15,7 +15,7 @@
     <table *ngIf='quotes && quotes.length'>
         <thead>
             <tr>
-                <th>Appropriate Icon</th>
+                <th><button (click)='toggleImage()'>Show speaking character</button></th>
                 <th>Topic</th>                
                 <th>Quote</th>
             </tr>

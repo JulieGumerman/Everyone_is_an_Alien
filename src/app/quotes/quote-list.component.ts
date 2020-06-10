@@ -10,6 +10,7 @@ export class QuoteListComponent {
     disclaimer: string = "All deliberate punctuation and spelling errors have been 'fixed' for ease of reading";
     svgWidth: number = 50;
     svgMargin: number = 10;
+    showImage: boolean = false;
     quotes: any[] = [
         {
             "id": 1,
@@ -44,4 +45,9 @@ export class QuoteListComponent {
             "pageNumber": 1
         }
     ];
+
+    toggleImage(): void{
+        this.showImage = !this.showImage;
+        console.log(this.showImage);
+    };
 }
