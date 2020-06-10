@@ -12,6 +12,7 @@ export class QuoteListComponent {
         {
             "id": 1,
             "character": "bear",
+            "image": "../img/paw-claws-duotone.svg",
             "quote": "What if bees are misunderstood? What if bees don't actually want to sting you?",
             "topic": "Misconceptions",
             "pageNumber": 1
