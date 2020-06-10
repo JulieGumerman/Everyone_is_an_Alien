@@ -22,7 +22,11 @@
         </thead>
         <tbody>
             <tr *ngFor='let quote of quotes'>
-                <td><img [src]='quote.image'></td>
+                <td>
+                    <img [src]='quote.image'
+                    [alt]='quote.character'
+                    >
+                </td>
                 <td>{{quote.topic}}</td>
                 <td>{{quote.quote}}</td>
             </tr>
