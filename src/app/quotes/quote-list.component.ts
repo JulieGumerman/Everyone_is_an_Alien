@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 
 export class QuoteListComponent {
     pageTitle: string = "Misspelled but Profound Thoughts...";
+    quotes: any[];
 }
