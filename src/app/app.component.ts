@@ -13,6 +13,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  pageTitle: string = "I is smart; I is kind; I is important";
-  quote: string = "Just because you are small does not mean you are insignificant";
+  pageTitle: string = "Everyone's an aliebn when ur an aliebn too:";
+  quote: string = "The Wisdom of Jomny Sun";
 }
