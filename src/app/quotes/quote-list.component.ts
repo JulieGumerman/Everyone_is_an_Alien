@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
 })
 
 export class QuoteListComponent {
-    pageTitle: string = "List of Quotes";
+    pageTitle: string = "Misspelled but Profound Thoughts...";
 }
