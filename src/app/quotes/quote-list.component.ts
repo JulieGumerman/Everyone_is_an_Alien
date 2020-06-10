@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class QuoteListComponent {
     pageTitle: string = "Profound Thoughts...";
     disclaimer: string = "All deliberate punctuation and spelling errors have been 'fixed' for ease of reading";
+    svgWidth: number = 50;
+    svgMargin: number = 10;
     quotes: any[] = [
         {
             "id": 1,
